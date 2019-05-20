@@ -29,6 +29,8 @@
     "preact-render-spy": "^1.2.1"
   },
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "axios": "^0.18.0",
     "preact": "^8.2.6",
     "preact-compat": "^3.17.0",
     "preact-router": "^2.5.7"
@@ -43,7 +45,8 @@
       "/node_modules/",
       "<rootDir>/tests/__mocks__/*"
     ],
-    "testURL": "http://localhost:8080",
+    "testURL": "http://localhost:8000",
+    "proxy": "http://localhost:7000/*",
     "moduleFileExtensions": [
       "js",
       "jsx"
