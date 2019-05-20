@@ -17,6 +17,7 @@ func main() {
 }
 
 func dataHandler(w http.ResponseWriter, r *http.Request) {
+	enableCors(&w)
 	w.Header().Add("content-type", "application/json")
 	w.Write(getDataFromLocalFile())
 }
@@ -34,4 +35,9 @@ func getDataFromLocalFile() []byte {
 	}
 
 	return b
+}
+
+func enableCors(w *http.ResponseWriter) {
+	(*w).Header().Set("Access-Control-Allow-Origin", "*")
+	(*w).Header().Set("Access-Control-Allow-Header", "*")
 }
