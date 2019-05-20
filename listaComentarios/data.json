@@ -1,0 +1,76 @@
+{
+  "data": [
+    {
+      "from_doc": 0,
+      "text": "Muito bom"
+    },
+    {
+      "from_doc": 0,
+      "text": "Porreta!"
+    },
+    {
+      "from_doc": 0,
+      "text": "Nâo gostei tanto"
+    },
+    {
+      "from_doc": 1,
+      "text": "Muito bom"
+    },
+    {
+      "from_doc": 1,
+      "text": "Porreta!"
+    },
+    {
+      "from_doc": 0,
+      "text": "Ofensivo"
+    },
+    {
+      "from_doc": 2,
+      "text": "Legalznho"
+    },
+    {
+      "from_doc": 2,
+      "text": "MASSA VEI!"
+    },
+    {
+      "from_doc": 3,
+      "text": "Aff"
+    },
+    {
+      "from_doc": 0,
+      "text": "Muito bom"
+    },
+    {
+      "from_doc": 3,
+      "text": "WEOW!"
+    },
+    {
+      "from_doc": 3,
+      "text": "Nâo gostei tanto"
+    },
+    {
+      "from_doc": 1,
+      "text": "Muito bom"
+    },
+    {
+      "from_doc": 1,
+      "text": "WEOW!"
+    },
+    {
+      "from_doc": 3,
+      "text": "Ofensivo"
+    },
+    {
+      "from_doc": 3,
+      "text": "Nhaa"
+    },
+    {
+      "from_doc": 0,
+      "text": "FIRST"
+    },
+    {
+      "from_doc": 0,
+      "text": "Aff"
+    }
+  ]
+}
