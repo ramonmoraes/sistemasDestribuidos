@@ -4,7 +4,6 @@ import './style.css';
 import Card from './components/card';
 
 const jokeURL = 'http://localhost:7000';
-const commentsURL = 'http://localhost:5000';
 
 export default class Home extends Component {
   constructor(props) {
