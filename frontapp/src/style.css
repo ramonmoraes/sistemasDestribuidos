@@ -3,11 +3,9 @@ html, body {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	background: #FAFAFA;
 	font-family: 'Helvetica Neue', arial, sans-serif;
 	font-weight: 400;
-	color: #444;
-	background-color: #ababab;
+	color: #111;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -36,11 +34,21 @@ html, body {
 }
 
 .card {
-	padding: 8px;
-	border:1px solid #444;
 	border-radius: 4px;
 	margin: 16px;
 	background-color: white;
-	box-shadow: 0px 4px 13px 0px #777;
+	box-shadow: 0px 2px 7px 0px #000;
 	cursor: pointer;
+}
+
+.card h2 {
+	background-color: #1ba0d5;
+	border-radius: 4px 4px 0 0;
+	margin: 0;
+	padding: 12px;
+	color: white;
+}
+
+.card > div, .card p {
+	padding: 8px;
 }

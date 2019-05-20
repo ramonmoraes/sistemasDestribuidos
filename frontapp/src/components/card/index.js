@@ -21,11 +21,11 @@ export default class Card extends Component {
   }
   renderComments = () => {
     const { comments } = this.state;
-    return comments
-      ? (<ol>
+    return comments.length !== 0
+      ? (<ul>
         {comments.map(text => <li> {text} </li>)}
-      </ol>)
-      : null
+      </ul>)
+      : <div> Clique para carregar os comentarios ...</div>;
 
   }
 
