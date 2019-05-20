@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	PORT := ":8080"
+	PORT := ":7000"
 	fmt.Println("Loading data from local file")
 	http.HandleFunc("/", dataHandler)
 	fmt.Println("Listening at ", PORT)
