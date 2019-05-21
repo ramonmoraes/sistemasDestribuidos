@@ -29,8 +29,8 @@ export default class Home extends Component {
     const jokeList = this.state.jokes.map(j => <Card text={j.text} title={j.title} id={j.id} />)
     return (
       <div className="app">
-        <h1>Projeto S.D</h1>
-        <p> ... </p>
+        <h1 className="main-title">Projeto S.D</h1>
+        <span className="split"></span>
         {jokeList}
       </div>
     );

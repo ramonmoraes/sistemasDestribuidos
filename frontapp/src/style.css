@@ -3,7 +3,7 @@ html, body {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-family: 'Helvetica Neue', 'Roboto', 'Lato', arial, sans-serif;
 	font-weight: 400;
 	color: #111;
 	-webkit-font-smoothing: antialiased;
@@ -51,4 +51,9 @@ html, body {
 
 .card > div, .card p {
 	padding: 8px;
+}
+
+.main-title {
+	font-size: 3.1em;
+	color: #333;
 }
