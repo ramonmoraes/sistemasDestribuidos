@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import json
 from flask import jsonify, Flask
 from flask_cors import CORS, cross_origin
