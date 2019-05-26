@@ -19,6 +19,7 @@ func main() {
 func dataHandler(w http.ResponseWriter, r *http.Request) {
 	enableCors(&w)
 	w.Header().Add("content-type", "application/json")
+	fmt.Println(r)
 	w.Write(getDataFromLocalFile())
 }
 
