@@ -9,3 +9,12 @@ Possiveis soluções
 1 - Abrir pelo endereço IP da localnetwork
 2 - Usar modo anonimo do chrome
 3 - Usar firefox
+
+
+# Scaling up
+
+docker-compose up --scale piadas=3
+
+Comentar portas do serviço piadas, para não dar conflito nas portas
+
+Testing: `while :; do curl piadas:7000; sleep 1; done` (dentro de um container)
