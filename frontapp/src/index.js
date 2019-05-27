@@ -3,7 +3,7 @@ import axios from 'axios';
 import './style.css';
 import Card from './components/card';
 
-const jokeURL = 'http://localhost:7000';
+const jokeURL = 'http://localhost/piadas';
 
 export default class Home extends Component {
   constructor(props) {

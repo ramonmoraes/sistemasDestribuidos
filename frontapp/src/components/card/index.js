@@ -11,7 +11,7 @@ export default class Card extends Component {
 
   handleClick = (ev) => {
     const { id } = this.props;
-    const commentsURL = `http://localhost:5000/doc/${id}`;
+    const commentsURL = `http://localhost/comentarios/${id}`;
     const fetchOptions = {
       mode: 'cors'
     };

@@ -16,7 +16,12 @@ cors = CORS(app)
 def api_doc():
         return jsonify(data)
 
-@app.route("/doc/<int:doc_id>", methods=["GET"])
+@app.route("/comentarios", methods=["GET"])
+@cross_origin()
+def api_doc_():
+        return jsonify(data)
+
+@app.route("/comentarios/<int:doc_id>", methods=["GET"])
 @cross_origin()
 def get_doc(doc_id):
         comment_list = data.get("data")
