@@ -1,0 +1,1 @@
+apt-get update && apt-get install -y vim && apt-get install -y procps && apt-get install -y curl
