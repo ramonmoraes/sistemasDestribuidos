@@ -2,13 +2,19 @@ version: "2"
 services:
   piadas:
     build: ./listaPiadas
-    ports:
-      - 7000:7000
   comentarios:
     build: ./listaComentarios
-    ports:
-      - 5000:5000
   frontapp:
     build: ./frontapp
+  nginx:
+    build: ./nginx
+    links:
+      - piadas
+      - comentarios
+      - frontapp
     ports:
-      - 8080:8080
+      - 80:80
+    volumes:
+      - ./:/vol
+volumes:
+  vol:
