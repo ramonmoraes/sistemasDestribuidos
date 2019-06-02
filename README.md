@@ -14,6 +14,7 @@ Possiveis soluções
 # Scaling up
 
 docker-compose up --scale piadas=3
+docker-compose up --scale comentarios=3
 
 Comentar portas do serviço piadas, para não dar conflito nas portas
 
